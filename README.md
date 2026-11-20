@@ -131,3 +131,13 @@ Predicted Net Electrical Output (PE): 456.44 MW
 * **Absence of Temporal Ordering:** The UCI dataset contains shuffled hourly records without timestamps; therefore, random holdout evaluation measures interpolation accuracy rather than future-period forecasting under seasonal drift or equipment degradation.
 * **Operating Envelope Controls:** The CLI interface enforces schema, numeric type, and finite-value validation, but does not yet block out-of-distribution sensor readings outside the physical training envelope (`AT: 1.81–37.11°C`, `V: 25.36–81.56 cm Hg`, `AP: 992.89–1033.30 mbar`, `RH: 25.56–100.16%`).
 * **Serialization Security & Portability:** Model artifacts persisted via `joblib` must only be loaded from trusted sources and executed in matching Python / `scikit-learn` library environments.
+
+#### 🎥 Project Video Demonstration
+
+This recorded presentation demonstrates the
+complete CCPP Energy Prediction machine learning
+project, including data exploration, preprocessing,
+model comparison, Random Forest evaluation,
+and electrical power output prediction.
+
+**[▶ View Recorded Project Presentation](https://github.com/Manojkmr7992/CCPP-Energy-Prediction/releases/tag/v1.0-demo)**
