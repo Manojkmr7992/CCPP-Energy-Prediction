@@ -1,0 +1,3 @@
+Model,Train MAE (MW),Train RMSE (MW),Train R2,Val MAE (MW),Val RMSE (MW),Val R2
+Linear Regression (Baseline),3.65305,4.565804,0.928541,3.555932,4.508491,0.928003
+Random Forest (n=100),0.925046,1.292181,0.994276,2.473852,3.488186,0.956903

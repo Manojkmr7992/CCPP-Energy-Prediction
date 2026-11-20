@@ -1,0 +1,2 @@
+Model,Train+Val Rows,Test Rows,Train+Val RMSE (MW),Test MAE (MW),Test RMSE (MW),Test R2,Fit Time (s)
+Random Forest (RF-01 Final),7621,1906,1.239765,2.429088,3.459694,0.959273,0.377162

@@ -1,0 +1,4 @@
+Rank,Model,Configuration,Train MAE (MW),Train RMSE (MW),Train R2,Val MAE (MW),Val RMSE (MW),Val R2,R2 Gap,Train Time (s)
+1,Random Forest (RF-01),"n_estimators=100, max_depth=None, min_samples_leaf=1",0.925046,1.292181,0.994276,2.473852,3.488186,0.956903,0.037374,0.273658
+2,Gradient Boosting (GB-03),"n_estimators=300, lr=0.05, max_depth=4",2.360351,3.063074,0.967839,2.713751,3.644124,0.952963,0.014875,1.951339
+3,Linear Regression (Baseline),Default,3.65305,4.565804,0.928541,3.555932,4.508491,0.928003,0.000539,0.002703
